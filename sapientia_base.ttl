@@ -41,10 +41,6 @@
 #    Object Properties
 #################################################################
 
-:aprendeuCom rdf:type owl:ObjectProperty ;
-             rdfs:domain :Aprendiz ;
-             rdfs:range :Mestre .
-
 :aprende rdf:type owl:ObjectProperty ;
          rdfs:domain :Aprendiz ;
          rdfs:range :Disciplina .
@@ -54,18 +50,9 @@
         rdfs:range :Disciplina ;
         owl:inverseOf :pertenceA .
 
-:dependeDe rdf:type owl:ObjectProperty ;
-           rdfs:domain :Conceito ;
-           rdfs:range :Conceito .
-
 :eEstudadoEm rdf:type owl:ObjectProperty ;
              rdfs:domain :Conceito ;
              rdfs:range :Disciplina .
-
-:eFundamentoPara rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Conceito ;
-                 rdfs:range :Conceito ;
-                 owl:inverseOf :dependeDe .
 
 :ensina rdf:type owl:ObjectProperty ;
         rdfs:domain :Mestre ;
@@ -93,11 +80,6 @@
 :foiEscritoPor rdf:type owl:ObjectProperty ;
               rdfs:domain :Obra ;
               rdfs:range :Mestre .
-
-:mesteDe rdf:type owl:ObjectProperty ;
-         rdfs:domain :Mestre ;
-         rdfs:range :Aprendiz ;
-         owl:inverseOf :aprendeuCom .
 
 :pertenceA rdf:type owl:ObjectProperty ;
            rdfs:domain :Disciplina ;

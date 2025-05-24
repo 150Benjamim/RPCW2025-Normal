@@ -64573,11 +64573,6 @@
     rdfs:domain owl:Thing ;
     rdfs:range xsd:string .
 
-:eFundamentoPara a owl:ObjectProperty ;
-    rdfs:domain :Conceito ;
-    rdfs:range :Conceito ;
-    owl:inverseOf :dependeDe .
-
 :escreveu a owl:ObjectProperty ;
     rdfs:domain :Mestre ;
     rdfs:range :Obra ;
@@ -64616,11 +64611,6 @@
 :lingua a owl:DatatypeProperty ;
     rdfs:domain :Obra ;
     rdfs:range xsd:string .
-
-:mesteDe a owl:ObjectProperty ;
-    rdfs:domain :Mestre ;
-    rdfs:range :Aprendiz ;
-    owl:inverseOf :aprendeuCom .
 
 :nivel a owl:DatatypeProperty ;
     rdfs:domain :Disciplina ;
@@ -66113,14 +66103,6 @@
 
 :Visualização_de_Dados a :Conceito ;
     :nome "Visualização de Dados" .
-
-:aprendeuCom a owl:ObjectProperty ;
-    rdfs:domain :Aprendiz ;
-    rdfs:range :Mestre .
-
-:dependeDe a owl:ObjectProperty ;
-    rdfs:domain :Conceito ;
-    rdfs:range :Conceito .
 
 :ensina a owl:ObjectProperty ;
     rdfs:domain :Mestre ;
