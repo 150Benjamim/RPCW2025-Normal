@@ -1,0 +1,155 @@
+{
+    "mestres": [
+      {
+        "nome": "Aristóteles",
+        "períodoHistórico": "Idade Antiga",
+        "disciplinas": ["Filosofia", "Lógica", "Ética"]
+      },
+      {
+        "nome": "Isaac Newton",
+        "períodoHistórico": "Século XVII",
+        "disciplinas": ["Física", "Matemática", "Astronomia"]
+      },
+      {
+        "nome": "Albert Einstein",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Física", "Matemática", "Teoria da Relatividade"]
+      },
+      {
+        "nome": "Marie Curie",
+        "períodoHistórico": "Século XIX/XX",
+        "disciplinas": ["Física", "Química", "Radioatividade"]
+      },
+      {
+        "nome": "Charles Darwin",
+        "períodoHistórico": "Século XIX",
+        "disciplinas": ["Biologia", "Evolução", "Naturalismo"]
+      },
+      {
+        "nome": "Sigmund Freud",
+        "períodoHistórico": "Século XIX/XX",
+        "disciplinas": ["Psicologia", "Psicanálise"]
+      },
+      {
+        "nome": "Immanuel Kant",
+        "períodoHistórico": "Século XVIII",
+        "disciplinas": ["Filosofia", "Ética", "Metafísica"]
+      },
+      {
+        "nome": "Jean-Paul Sartre",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Filosofia", "Existencialismo"]
+      },
+      {
+        "nome": "Martin Heidegger",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Filosofia", "Fenomenologia"]
+      },
+      {
+        "nome": "Karl Marx",
+        "períodoHistórico": "Século XIX",
+        "disciplinas": ["Economia", "Sociologia", "Filosofia"]
+      },
+      {
+        "nome": "Ada Lovelace",
+        "períodoHistórico": "Século XIX",
+        "disciplinas": ["Matemática", "Computação"]
+      },
+      {
+        "nome": "Alan Turing",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Matemática", "Computação", "Inteligência Artificial"]
+      },
+      {
+        "nome": "Stephen Hawking",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Física", "Cosmologia"]
+      },
+      {
+        "nome": "Richard Feynman",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Física", "Matemática"]
+      },
+      {
+        "nome": "Marie-Joseph Lagrange",
+        "períodoHistórico": "Século XVIII",
+        "disciplinas": ["Matemática", "Física"]
+      },
+      {
+        "nome": "Pierre-Simon Laplace",
+        "períodoHistórico": "Século XVIII/XIX",
+        "disciplinas": ["Matemática", "Astronomia"]
+      },
+      {
+        "nome": "Georg Wilhelm Friedrich Hegel",
+        "períodoHistórico": "Século XVIII/XIX",
+        "disciplinas": ["Filosofia", "História"]
+      },
+      {
+        "nome": "Friedrich Nietzsche",
+        "períodoHistórico": "Século XIX",
+        "disciplinas": ["Filosofia", "Ética"]
+      },
+      {
+        "nome": "Simone de Beauvoir",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Filosofia", "Feminismo"]
+      },
+      {
+        "nome": "Noam Chomsky",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Linguística", "Filosofia"]
+      },
+      {
+        "nome": "Sócrates",
+        "períodoHistórico": "Idade Antiga",
+        "disciplinas": ["Filosofia", "Ética"]
+      },
+      {
+        "nome": "Platão",
+        "períodoHistórico": "Idade Antiga",
+        "disciplinas": ["Filosofia", "Metafísica"]
+      },
+      {
+        "nome": "René Descartes",
+        "períodoHistórico": "Século XVII",
+        "disciplinas": ["Filosofia", "Matemática"]
+      },
+      {
+        "nome": "David Hume",
+        "períodoHistórico": "Século XVIII",
+        "disciplinas": ["Filosofia", "História"]
+      },
+      {
+        "nome": "Immanuel Wallerstein",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Sociologia", "Economia"]
+      },
+      {
+        "nome": "Pierre Bourdieu",
+        "períodoHistórico": "Século XX",
+        "disciplinas": ["Sociologia", "Antropologia"]
+      },
+      {
+        "nome": "Judith Butler",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Filosofia", "Gênero"]
+      },
+      {
+        "nome": "Slavoj Žižek",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Filosofia", "Psicanálise"]
+      },
+      {
+        "nome": "Daniel Kahneman",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Psicologia", "Economia"]
+      },
+      {
+        "nome": "Amartya Sen",
+        "períodoHistórico": "Século XX/XXI",
+        "disciplinas": ["Economia", "Filosofia"]
+      }
+    ]
+  }
+  

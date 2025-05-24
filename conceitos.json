@@ -1,0 +1,274 @@
+{
+  "conceitos": [
+    {
+      "nome": "Relatividade",
+      "aplicações": ["Física", "Astronomia", "Engenharia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Teoria da Relatividade", "Física Quântica", "Gravidade", "Espaço-Tempo"]
+    },
+    {
+      "nome": "Lógica Formal",
+      "aplicações": ["Inteligência Artificial", "Programação", "Matemática"],
+      "períodoHistórico": "Idade Antiga",
+      "conceitosRelacionados": ["Lógica Matemática", "Teoria da Computação", "Inteligência Artificial"]
+    },
+    {
+      "nome": "Teoria da Relatividade",
+      "aplicações": ["Física", "Astronomia", "Engenharia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Física Quântica", "Teoria da Gravitação", "Cosmologia"]
+    },
+    {
+      "nome": "Evolução",
+      "aplicações": ["Biologia", "Medicina", "Conservação"],
+      "períodoHistórico": "Século XIX",
+      "conceitosRelacionados": ["Biologia Evolutiva", "Genética", "Ecologia"]
+    },
+    {
+      "nome": "Materialismo Histórico",
+      "aplicações": ["Sociologia", "Economia", "Política"],
+      "períodoHistórico": "Século XIX",
+      "conceitosRelacionados": ["Marxismo", "Socialismo", "Comunismo"]
+    },
+    {
+      "nome": "Existencialismo",
+      "aplicações": ["Filosofia", "Literatura", "Psicologia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Fenomenologia", "Existencialismo Cristão", "Absurdismo"]
+    },
+    {
+      "nome": "Teoria dos Jogos",
+      "aplicações": ["Economia", "Política", "Estratégia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Economia Clássica", "Teoria da Decisão", "Estratégia Militar"]
+    },
+    {
+      "nome": "Inteligência Artificial",
+      "aplicações": ["Tecnologia", "Robótica", "Automação"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Aprendizado de Máquina", "Redes Neurais", "Processamento de Linguagem Natural"]
+    },
+    {
+      "nome": "Cibernética",
+      "aplicações": ["Tecnologia", "Comunicação", "Controle"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Teoria da Informação", "Sistemas de Controle", "Robótica"]
+    },
+    {
+      "nome": "Teoria da Informação",
+      "aplicações": ["Comunicação", "Tecnologia", "Criptografia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Cibernética", "Teoria da Comunicação", "Segurança da Informação"]
+    },
+    {
+      "nome": "Biologia Molecular",
+      "aplicações": ["Medicina", "Biotecnologia", "Genética"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Genética Molecular", "Biotecnologia", "Terapia Gênica"]
+    },
+    {
+      "nome": "Física Quântica",
+      "aplicações": ["Física", "Tecnologia", "Engenharia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Mecânica Quântica", "Teoria Quântica de Campos", "Física de Partículas"]
+    },
+    {
+      "nome": "Economia Clássica",
+      "aplicações": ["Economia", "Política", "Finanças"],
+      "períodoHistórico": "Século XVIII",
+      "conceitosRelacionados": ["Livre Mercado", "Mão Invisível", "Teoria do Valor"]
+    },
+    {
+      "nome": "Sociologia",
+      "aplicações": ["Sociologia", "Antropologia", "Psicologia"],
+      "períodoHistórico": "Século XIX",
+      "conceitosRelacionados": ["Teoria Social", "Estrutura Social", "Mudança Social"]
+    },
+    {
+      "nome": "Psicologia Cognitiva",
+      "aplicações": ["Psicologia", "Educação", "Neurociência"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Cognição", "Percepção", "Memória"]
+    },
+    {
+      "nome": "Fenomenologia",
+      "aplicações": ["Filosofia", "Psicologia", "Antropologia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Existencialismo", "Filosofia da Consciência", "Subjetividade"]
+    },
+    {
+      "nome": "Estruturalismo",
+      "aplicações": ["Antropologia", "Linguística", "Sociologia"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Estrutura", "Sistema", "Relação"]
+    },
+    {
+      "nome": "Pós-Estruturalismo",
+      "aplicações": ["Filosofia", "Teoria Literária", "Cultura"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Desconstrução", "Pós-Modernismo", "Teoria Crítica"]
+    },
+    {
+      "nome": "Teoria Crítica",
+      "aplicações": ["Filosofia", "Sociologia", "Cultura"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Marxismo", "Frankfurt School", "Crítica Social"]
+    },
+    {
+      "nome": "Globalização",
+      "aplicações": ["Economia", "Política", "Cultura"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Globalismo", "Internacionalização", "Interdependência"]
+    },
+    {
+      "nome": "Sustentabilidade",
+      "aplicações": ["Meio Ambiente", "Economia", "Política"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Desenvolvimento Sustentável", "Economia Verde", "Responsabilidade Social"]
+    },
+    {
+      "nome": "Tecnologia da Informação",
+      "aplicações": ["Tecnologia", "Comunicação", "Informação"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Informática", "Comunicação Digital", "Gestão da Informação"]
+    },
+    {
+      "nome": "Biotecnologia",
+      "aplicações": ["Medicina", "Agricultura", "Indústria"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Engenharia Genética", "Terapia Gênica", "Biossegurança"]
+    },
+    {
+      "nome": "Nanotecnologia",
+      "aplicações": ["Tecnologia", "Materiais", "Medicina"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Nanoescala", "Materiais Nanoestruturados", "Aplicações Médicas"]
+    },
+    {
+      "nome": "Inteligência Coletiva",
+      "aplicações": ["Tecnologia", "Sociedade", "Educação"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Redes Sociais", "Colaboração", "Inteligência Artificial"]
+    },
+    {
+      "nome": "Aprendizado de Máquina",
+      "aplicações": ["Inteligência Artificial", "Tecnologia", "Análise de Dados"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Redes Neurais", "Aprendizado Profundo", "Mineração de Dados"]
+    },
+    {
+      "nome": "Big Data",
+      "aplicações": ["Tecnologia", "Análise de Dados", "Estatística"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Análise de Dados", "Mineração de Dados", "Visualização de Dados"]
+    },
+    {
+      "nome": "Internet das Coisas",
+      "aplicações": ["Tecnologia", "Comunicação", "Automação"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Dispositivos Conectados", "Redes de Sensores", "Automação Residencial"]
+    },
+    {
+      "nome": "Realidade Virtual",
+      "aplicações": ["Tecnologia", "Entretenimento", "Educação"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Simulação", "Imersão", "Interatividade"]
+    },
+    {
+      "nome": "Realidade Aumentada",
+      "aplicações": ["Tecnologia", "Entretenimento", "Educação"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Sobreposição de Informações", "Interatividade", "Aplicações Práticas"]
+    },
+    {
+      "nome": "Blockchain",
+      "aplicações": ["Tecnologia", "Finanças", "Segurança"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Criptomoedas", "Descentralização", "Segurança de Dados"]
+    },
+    {
+      "nome": "Criptomoedas",
+      "aplicações": ["Finanças", "Tecnologia", "Economia"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Blockchain", "Mineração", "Pagamento Digital"]
+    },
+    {
+      "nome": "Inteligência Artificial Geral",
+      "aplicações": ["Tecnologia", "Inteligência Artificial", "Futuro"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Superinteligência", "Consciência Artificial", "Ética da IA"]
+    },
+    {
+      "nome": "Robótica",
+      "aplicações": ["Tecnologia", "Indústria", "Serviços"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Automação", "Controle de Movimento", "Sensoriamento"]
+    },
+    {
+      "nome": "Automação",
+      "aplicações": ["Tecnologia", "Indústria", "Serviços"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Robótica", "Controle de Processos", "Eficiência"]
+    },
+    {
+      "nome": "Engenharia Genética",
+      "aplicações": ["Biotecnologia", "Medicina", "Agricultura"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Terapia Gênica", "Clonagem", "Organismos Geneticamente Modificados"]
+    },
+    {
+      "nome": "Terapia Gênica",
+      "aplicações": ["Medicina", "Biotecnologia", "Genética"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Doenças Genéticas", "Vetores Virais", "Terapia de Substituição"]
+    },
+    {
+      "nome": "Clonagem",
+      "aplicações": ["Biotecnologia", "Medicina", "Agricultura"],
+      "períodoHistórico": "Século XX",
+      "conceitosRelacionados": ["Clonagem Reprodutiva", "Clonagem Terapêutica", "Ética da Clonagem"]
+    },
+    {
+      "nome": "Células-Tronco",
+      "aplicações": ["Medicina", "Biotecnologia", "Terapia"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Células-Tronco Embrionárias", "Células-Tronco Adultas", "Terapia Regenerativa"]
+    },
+    {
+      "nome": "Impressão 3D",
+      "aplicações": ["Tecnologia", "Indústria", "Medicina"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Modelagem 3D", "Impressão Aditiva", "Aplicações Médicas"]
+    },
+    {
+      "nome": "Realidade Mista",
+      "aplicações": ["Tecnologia", "Entretenimento", "Educação"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Realidade Virtual", "Realidade Aumentada", "Interatividade"]
+    },
+    {
+      "nome": "Inteligência Artificial Explicável",
+      "aplicações": ["Tecnologia", "Inteligência Artificial", "Transparência"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Transparência", "Interpretação", "Confiança"]
+    },
+    {
+      "nome": "Ética da Inteligência Artificial",
+      "aplicações": ["Filosofia", "Tecnologia", "Ética"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Privacidade", "Segurança", "Responsabilidade"]
+    },
+    {
+      "nome": "Segurança Cibernética",
+      "aplicações": ["Tecnologia", "Segurança", "Proteção"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Cibersegurança", "Proteção de Dados", "Segurança de Redes"]
+    },
+    {
+      "nome": "Privacidade de Dados",
+      "aplicações": ["Tecnologia", "Privacidade", "Segurança"],
+      "períodoHistórico": "Século XXI",
+      "conceitosRelacionados": ["Proteção de Dados", "Privacidade Online", "Regulamentação"]
+    }
+  ]
+}

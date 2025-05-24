@@ -1,0 +1,183 @@
+12.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?conceito
+WHERE {
+    # Assumindo um mestre específico (substitua pelo URI real do mestre)
+    :Isaac_Newton rdf:type :Mestre .
+    :Isaac_Newton :ensina ?disciplina .
+    ?disciplina :estuda ?conceito .
+}
+
+
+13.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?obra
+WHERE {
+    ?conceito rdf:type :Conceito .
+    ?conceito :nome "Relatividade" .
+    ?obra :explica ?conceito .
+}
+
+
+14.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?disciplina
+WHERE {
+    ?tipoConhecimento rdf:type :TipoDeConhecimento .
+    ?tipoConhecimento :nome "Ciências Sociais" .
+    ?disciplina :pertenceA ?tipoConhecimento .
+}
+
+
+15.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?aplicacao
+WHERE {
+    ?conceito rdf:type :Conceito .
+    ?conceito :nome "Lógica Formal" .
+    ?conceito :temAplicacaoEm ?aplicacao .
+}
+
+
+16.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?disciplina
+WHERE {
+    ?tipoConhecimento rdf:type :TipoDeConhecimento .
+    ?tipoConhecimento :nome "Ciências Exatas" .
+    ?disciplina :pertenceA ?tipoConhecimento .
+}
+
+
+17.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?mestre
+WHERE {
+    ?mestre rdf:type :Mestre .
+    ?mestre :nome ?nomeMestre .
+    ?mestre :viveuEm :Século_XIX .
+}
+
+
+18.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?aprendiz
+WHERE {
+    ?aprendiz rdf:type :Aprendiz .
+    ?aprendiz :aprende ?disciplina .
+    ?disciplina :estuda ?conceito .
+    ?conceito :nome "Programação" .
+}
+
+
+19.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?disciplina (COUNT(?aprendiz) AS ?numeroAlunos)
+WHERE {
+    ?aprendiz rdf:type :Aprendiz .
+    ?aprendiz :aprende ?disciplina .
+}
+GROUP BY ?disciplina
+ORDER BY DESC(?numeroAlunos)
+
+
+20.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?periodo (COUNT(?conceito) AS ?numeroConceitos)
+WHERE {
+    ?conceito rdf:type :Conceito .
+    ?conceito :surgeEm ?periodo .
+}
+GROUP BY ?periodo
+ORDER BY DESC(?numeroConceitos)
+
+
+21.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?conceito (GROUP_CONCAT(?tituloObra; separator=", ") AS ?listaObras)
+WHERE {
+    ?conceito rdf:type :Conceito .
+    ?obra :explica ?conceito .
+    OPTIONAL { ?obra :nome ?tituloObra }
+}
+GROUP BY ?conceito
+
+
+
+22.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?disciplina (GROUP_CONCAT(DISTINCT ?nomeAprendiz; separator="; ") AS ?listaAprendizes)
+WHERE {
+    ?disciplina rdf:type :Disciplina .
+    ?aprendiz :aprende ?disciplina .
+    OPTIONAL { ?aprendiz :nome ?nomeAprendiz }
+}
+GROUP BY ?disciplina
+ORDER BY ?nomeDisciplina
+
+
+23.
+
+PREFIX : <http://example.org/sapienta#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?escalaoEtario (COUNT(?aprendiz) AS ?numeroAprendizes)
+WHERE {
+    ?aprendiz rdf:type :Aprendiz .
+    ?aprendiz :idade ?idade .
+    BIND(
+        IF(?idade >= 17 && ?idade <= 34, "[17-34]",
+        IF(?idade >= 35 && ?idade <= 44, "[35-44]",
+        IF(?idade >= 45 && ?idade <= 54, "[45-54]",
+        IF(?idade >= 55 && ?idade <= 64, "[55-64]",
+        IF(?idade >= 65 && ?idade <= 74, "[65-74]",
+        IF(?idade >= 75 && ?idade <= 100, "[75-100]", "Fora do escalão"))))))
+        AS ?escalaoEtario
+    )
+    FILTER(?escalaoEtario != "Fora do escalão")
+}
+GROUP BY ?escalaoEtario
+ORDER BY ?escalaoEtario

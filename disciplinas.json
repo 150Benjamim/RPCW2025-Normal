@@ -1,0 +1,206 @@
+{
+    "disciplinas": [
+      {
+        "nome": "Filosofia",
+        "tiposDeConhecimento": ["Humanidades", "Filosofia"],
+        "conceitos": ["Ética", "Metafísica", "Epistemologia", "Filosofia da Mente"]
+      },
+      {
+        "nome": "Matemática",
+        "tiposDeConhecimento": ["Ciências Exatas", "Matemática"],
+        "conceitos": ["Números", "Álgebra", "Geometria", "Cálculo"]
+      },
+      {
+        "nome": "Física",
+        "tiposDeConhecimento": ["Ciências Exatas", "Física"],
+        "conceitos": ["Mecânica", "Termodinâmica", "Eletromagnetismo", "Física Quântica"]
+      },
+      {
+        "nome": "Química",
+        "tiposDeConhecimento": ["Ciências Exatas", "Química"],
+        "conceitos": ["Tabela Periódica", "Reações Químicas", "Química Orgânica", "Química Inorgânica"]
+      },
+      {
+        "nome": "Biologia",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Biologia"],
+        "conceitos": ["Células", "Genética", "Evolução", "Ecologia"]
+      },
+      {
+        "nome": "História",
+        "tiposDeConhecimento": ["Humanidades", "História"],
+        "conceitos": ["História Antiga", "História Medieval", "História Moderna", "História Contemporânea"]
+      },
+      {
+        "nome": "Geografia",
+        "tiposDeConhecimento": ["Ciências Humanas", "Geografia"],
+        "conceitos": ["Geografia Física", "Geografia Humana", "Geografia Econômica", "Cartografia"]
+      },
+      {
+        "nome": "Economia",
+        "tiposDeConhecimento": ["Ciências Sociais", "Economia"],
+        "conceitos": ["Microeconomia", "Macroeconomia", "Economia Internacional", "Desenvolvimento Econômico"]
+      },
+      {
+        "nome": "Sociologia",
+        "tiposDeConhecimento": ["Ciências Sociais", "Sociologia"],
+        "conceitos": ["Sociedade", "Cultura", "Desigualdade Social", "Instituições Sociais"]
+      },
+      {
+        "nome": "Psicologia",
+        "tiposDeConhecimento": ["Ciências Humanas", "Psicologia"],
+        "conceitos": ["Psicologia Cognitiva", "Psicologia Social", "Psicologia do Desenvolvimento", "Psicoterapia"]
+      },
+      {
+        "nome": "Antropologia",
+        "tiposDeConhecimento": ["Ciências Humanas", "Antropologia"],
+        "conceitos": ["Cultura", "Sociedade", "Etnografia", "Antropologia Física"]
+      },
+      {
+        "nome": "Línguas",
+        "tiposDeConhecimento": ["Humanidades", "Línguas"],
+        "conceitos": ["Gramática", "Linguística", "Literatura", "Tradução"]
+      },
+      {
+        "nome": "Literatura",
+        "tiposDeConhecimento": ["Humanidades", "Literatura"],
+        "conceitos": ["Teoria Literária", "Crítica Literária", "História da Literatura", "Análise de Texto"]
+      },
+      {
+        "nome": "Artes",
+        "tiposDeConhecimento": ["Humanidades", "Artes"],
+        "conceitos": ["História da Arte", "Teoria da Arte", "Crítica de Arte", "Técnicas Artísticas"]
+      },
+      {
+        "nome": "Música",
+        "tiposDeConhecimento": ["Humanidades", "Música"],
+        "conceitos": ["Teoria Musical", "História da Música", "Composição Musical", "Interpretação Musical"]
+      },
+      {
+        "nome": "Teatro",
+        "tiposDeConhecimento": ["Humanidades", "Teatro"],
+        "conceitos": ["História do Teatro", "Teoria do Teatro", "Interpretação Teatral", "Direção Teatral"]
+      },
+      {
+        "nome": "Dança",
+        "tiposDeConhecimento": ["Humanidades", "Dança"],
+        "conceitos": ["História da Dança", "Teoria da Dança", "Técnicas de Dança", "Coreografia"]
+      },
+      {
+        "nome": "Engenharia",
+        "tiposDeConhecimento": ["Ciências Exatas", "Engenharia"],
+        "conceitos": ["Engenharia Mecânica", "Engenharia Elétrica", "Engenharia Civil", "Engenharia Química"]
+      },
+      {
+        "nome": "Informática",
+        "tiposDeConhecimento": ["Ciências Exatas", "Informática"],
+        "conceitos": ["Programação", "Banco de Dados", "Redes de Computadores", "Segurança"]
+      },
+      {
+        "nome": "Ciência da Computação",
+        "tiposDeConhecimento": ["Ciências Exatas", "Ciência da Computação"],
+        "conceitos": ["Algoritmos", "Estruturas de Dados", "Inteligência Artificial", "Sistemas Operacionais"]
+      },
+      {
+        "nome": "Estatística",
+        "tiposDeConhecimento": ["Ciências Exatas", "Estatística"],
+        "conceitos": ["Probabilidade", "Estatística Descritiva", "Estatística Inferencial", "Análise de Dados"]
+      },
+      {
+        "nome": "Matemática Aplicada",
+        "tiposDeConhecimento": ["Ciências Exatas", "Matemática Aplicada"]
+      },
+      {
+        "nome": "Física Aplicada",
+        "tiposDeConhecimento": ["Ciências Exatas", "Física Aplicada"]
+      },
+      {
+        "nome": "Química Aplicada",
+        "tiposDeConhecimento": ["Ciências Exatas", "Química Aplicada"]
+      },
+      {
+        "nome": "Biologia Aplicada",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Biologia Aplicada"]
+      },
+      {
+        "nome": "Engenharia Biomédica",
+        "tiposDeConhecimento": ["Ciências Exatas", "Engenharia Biomédica"]
+      },
+      {
+        "nome": "Engenharia Elétrica",
+        "tiposDeConhecimento": ["Ciências Exatas", "Engenharia Elétrica"],
+        "conceitos": ["Circuitos Elétricos", "Eletrônica", "Sistemas de Controle", "Energia Elétrica"]
+      },
+      {
+        "nome": "Engenharia Mecânica",
+        "tiposDeConhecimento": ["Ciências Exatas", "Engenharia Mecânica"]
+      },
+      {
+        "nome": "Engenharia Química",
+        "tiposDeConhecimento": ["Ciências Exatas", "Engenharia Química"]
+      },
+      {
+        "nome": "Ciência dos Materiais",
+        "tiposDeConhecimento": ["Ciências Exatas", "Ciência dos Materiais"]
+      },
+      {
+        "nome": "Nanotecnologia",
+        "tiposDeConhecimento": ["Ciências Exatas", "Nanotecnologia"]
+      },
+      {
+        "nome": "Biotecnologia",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Biotecnologia"]
+      },
+      {
+        "nome": "Genética",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Genética"]
+      },
+      {
+        "nome": "Microbiologia",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Microbiologia"]
+      },
+      {
+        "nome": "Ecologia",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Ecologia"]
+      },
+      {
+        "nome": "Conservação",
+        "tiposDeConhecimento": ["Ciências Biológicas", "Conservação"]
+      },
+      {
+        "nome": "Educação",
+        "tiposDeConhecimento": ["Ciências Humanas", "Educação"]
+      },
+      {
+        "nome": "Pedagogia",
+        "tiposDeConhecimento": ["Ciências Humanas", "Pedagogia"]
+      },
+      {
+        "nome": "Didática",
+        "tiposDeConhecimento": ["Ciências Humanas", "Didática"]
+      },
+      {
+        "nome": "Metodologia",
+        "tiposDeConhecimento": ["Ciências Humanas", "Metodologia"]
+      },
+      {
+        "nome": "Filosofia da Educação",
+        "tiposDeConhecimento": ["Filosofia", "Educação"]
+      },
+      {
+        "nome": "Psicologia da Educação",
+        "tiposDeConhecimento": ["Psicologia", "Educação"]
+      },
+      {
+        "nome": "Sociologia da Educação",
+        "tiposDeConhecimento": ["Sociologia", "Educação"]
+      },
+      {
+        "nome": "Antropologia da Educação",
+        "tiposDeConhecimento": ["Antropologia", "Educação"]
+      },
+      {
+        "nome": "História da Educação",
+        "tiposDeConhecimento": ["História", "Educação"]
+      }
+    ]
+  }

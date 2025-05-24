@@ -1,0 +1,244 @@
+{
+    "obras": [
+      {
+        "titulo": "Ética a Nicômaco",
+        "autor": "Aristóteles",
+        "conceitos": ["Ética", "Virtude", "Felicidade"]
+      },
+      {
+        "titulo": "Principia Mathematica",
+        "autor": "Isaac Newton",
+        "conceitos": ["Matemática", "Física", "Cálculo"]
+      },
+      {
+        "titulo": "A Origem das Espécies",
+        "autor": "Charles Darwin",
+        "conceitos": ["Evolução", "Seleção Natural", "Biologia"]
+      },
+      {
+        "titulo": "A Teoria da Relatividade",
+        "autor": "Albert Einstein",
+        "conceitos": ["Física", "Relatividade", "Espaço-Tempo"]
+      },
+      {
+        "titulo": "O Capital",
+        "autor": "Karl Marx",
+        "conceitos": ["Economia", "Materialismo Histórico", "Luta de Classes"]
+      },
+      {
+        "titulo": "A Crítica da Razão Pura",
+        "autor": "Immanuel Kant",
+        "conceitos": ["Filosofia", "Epistemologia", "Metafísica"]
+      },
+      {
+        "titulo": "O Ser e o Tempo",
+        "autor": "Martin Heidegger",
+        "conceitos": ["Filosofia", "Existencialismo", "Fenomenologia"]
+      },
+      {
+        "titulo": "A República",
+        "autor": "Platão",
+        "conceitos": ["Filosofia", "Política", "Justiça"]
+      },
+      {
+        "titulo": "O Príncipe",
+        "autor": "Nicolau Maquiavel",
+        "conceitos": ["Política", "Poder", "Governança"]
+      },
+      {
+        "titulo": "A Arte da Guerra",
+        "autor": "Sun Tzu",
+        "conceitos": ["Estratégia", "Tática", "Guerra"]
+      },
+      {
+        "titulo": "O Leviatã",
+        "autor": "Thomas Hobbes",
+        "conceitos": ["Filosofia", "Política", "Contrato Social"]
+      },
+      {
+        "titulo": "A Filosofia da História",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "conceitos": ["Filosofia", "História", "Dialética"]
+      },
+      {
+        "titulo": "O Manifesto Comunista",
+        "autor": "Karl Marx e Friedrich Engels",
+        "conceitos": ["Comunismo", "Socialismo", "Luta de Classes"]
+      },
+      {
+        "titulo": "A Teoria dos Jogos",
+        "autor": "John von Neumann e Oskar Morgenstern",
+        "conceitos": ["Economia", "Teoria dos Jogos", "Estratégia"]
+      },
+      {
+        "titulo": "O Círculo de Viena",
+        "autor": "Vários",
+        "conceitos": ["Filosofia", "Ciência", "Positivismo"]
+      },
+      {
+        "titulo": "A Crítica da Economia Política",
+        "autor": "Karl Marx",
+        "conceitos": ["Economia", "Materialismo Histórico", "Crítica ao Capitalismo"]
+      },
+      {
+        "titulo": "O Ensaio sobre a Origem das Línguas",
+        "autor": "Jean-Jacques Rousseau",
+        "conceitos": ["Filosofia", "Linguagem", "Cultura"]
+      },
+      {
+        "titulo": "A Teoria da Computação",
+        "autor": "Alan Turing",
+        "conceitos": ["Computação", "Inteligência Artificial", "Teoria da Informação"]
+      },
+      {
+        "titulo": "O Código Da Vinci",
+        "autor": "Dan Brown",
+        "conceitos": ["Mistério", "História", "Simbolismo"]
+      },
+      {
+        "titulo": "A História da Arte",
+        "autor": "Ernst Gombrich",
+        "conceitos": ["Arte", "História", "Cultura"]
+      },
+      {
+        "titulo": "O Livro dos Cinco Anéis",
+        "autor": "Miyamoto Musashi",
+        "conceitos": ["Estratégia", "Tática", "Filosofia"]
+      },
+      {
+        "titulo": "A Arte de Amar",
+        "autor": "Erich Fromm",
+        "conceitos": ["Amor", "Relacionamentos", "Psicologia"]
+      },
+      {
+        "titulo": "O Poder do Agora",
+        "autor": "Eckhart Tolle",
+        "conceitos": ["Espiritualidade", "Consciência", "Meditação"]
+      },
+      {
+        "titulo": "A Sociedade do Espectáculo",
+        "autor": "Guy Debord",
+        "conceitos": ["Sociedade", "Cultura", "Consumismo"]
+      },
+      {
+        "titulo": "O Mito de Sísifo",
+        "autor": "Albert Camus",
+        "conceitos": ["Filosofia", "Existencialismo", "Absurdismo"]
+      },
+      {
+        "titulo": "A Náusea",
+        "autor": "Jean-Paul Sartre",
+        "conceitos": ["Filosofia", "Existencialismo", "Fenomenologia"]
+      },
+      {
+        "titulo": "O Segundo Sexo",
+        "autor": "Simone de Beauvoir",
+        "conceitos": ["Feminismo", "Igualdade", "Liberdade"]
+      },
+      {
+        "titulo": "A República Democrática",
+        "autor": "Vários",
+        "conceitos": ["Política", "Democracia", "Governança"]
+      },
+      {
+        "titulo": "O Livro do Tao",
+        "autor": "Lao Tzu",
+        "conceitos": ["Taoísmo", "Filosofia", "Espiritualidade"]
+      },
+      {
+        "titulo": "A Arte da Felicidade",
+        "autor": "Dalai Lama",
+        "conceitos": ["Felicidade", "Paz", "Compassividade"]
+      },
+      {
+        "titulo": "O Livro da Sabedoria",
+        "autor": "Vários",
+        "conceitos": ["Sabedoria", "Filosofia", "Vida"]
+      },
+      {
+        "titulo": "A História do Mundo",
+        "autor": "Vários",
+        "conceitos": ["História", "Cultura", "Civilização"]
+      },
+      {
+        "titulo": "O Livro da Ciência",
+        "autor": "Vários",
+        "conceitos": ["Ciência", "Tecnologia", "Inovação"]
+      },
+      {
+        "titulo": "A Filosofia da Ciência",
+        "autor": "Karl Popper",
+        "conceitos": ["Filosofia", "Ciência", "Método Científico"]
+      },
+      {
+        "titulo": "O Livro da Psicologia",
+        "autor": "Vários",
+        "conceitos": ["Psicologia", "Comportamento", "Mente"]
+      },
+      {
+        "titulo": "A Teoria da Personalidade",
+        "autor": "Sigmund Freud",
+        "conceitos": ["Psicologia", "Personalidade", "Inconsciente"]
+      },
+      {
+        "titulo": "O Livro da Economia",
+        "autor": "Vários",
+        "conceitos": ["Economia", "Mercado", "Finanças"]
+      },
+      {
+        "titulo": "A Teoria do Caos",
+        "autor": "Edward Lorenz",
+        "conceitos": ["Ciência", "Caos", "Complexidade"]
+      },
+      {
+        "titulo": "O Livro da Biologia",
+        "autor": "Vários",
+        "conceitos": ["Biologia", "Vida", "Evolução"]
+      },
+      {
+        "titulo": "A Teoria da Evolução",
+        "autor": "Charles Darwin",
+        "conceitos": ["Evolução", "Seleção Natural", "Biologia"]
+      },
+      {
+        "titulo": "O Livro da Química",
+        "autor": "Vários",
+        "conceitos": ["Química", "Matéria", "Reações"]
+      },
+      {
+        "titulo": "A Tabela Periódica",
+        "autor": "Dmitri Mendeleev",
+        "conceitos": ["Química", "Elementos", "Tabela Periódica"]
+      },
+      {
+        "titulo": "O Livro da Física",
+        "autor": "Vários",
+        "conceitos": ["Física", "Matéria", "Energia"]
+      },
+      {
+        "titulo": "A Teoria da Relatividade Geral",
+        "autor": "Albert Einstein",
+        "conceitos": ["Física", "Relatividade", "Gravidade"]
+      },
+      {
+        "titulo": "O Livro da Matemática",
+        "autor": "Vários",
+        "conceitos": ["Matemática", "Números", "Geometria"]
+      },
+      {
+        "titulo": "A Teoria dos Números",
+        "autor": "Vários",
+        "conceitos": ["Matemática", "Números", "Teoria"]
+      },
+      {
+        "titulo": "O Livro da Computação",
+        "autor": "Vários",
+        "conceitos": ["Computação", "Algoritmos", "Programação"]
+      },
+      {
+        "titulo": "A Teoria da Computação",
+        "autor": "Alan Turing",
+        "conceitos": ["Computação", "Inteligência Artificial", "Teoria"]
+      }
+    ]
+  }

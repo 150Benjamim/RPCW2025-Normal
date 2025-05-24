@@ -1,0 +1,238 @@
+@prefix : <http://example.org/sapienta#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/benjamim/ontologies/2025/4/untitled-ontology-6/> .
+
+<http://www.semanticweb.org/benjamim/ontologies/2025/4/untitled-ontology-6> rdf:type owl:Ontology .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+:Aplicacao rdf:type owl:Class .
+
+:Aprendiz rdf:type owl:Class ;
+          rdfs:subClassOf :Pessoa .
+
+:Conceito rdf:type owl:Class .
+
+:ConhecimentoUniversal rdf:type owl:Class .
+
+:Disciplina rdf:type owl:Class ;
+            rdfs:subClassOf :ConhecimentoUniversal .
+
+:Mestre rdf:type owl:Class ;
+        rdfs:subClassOf :Pessoa .
+
+:Obra rdf:type owl:Class .
+
+:PeriodoHistorico rdf:type owl:Class .
+
+:Pessoa rdf:type owl:Class .
+
+:TipoDeConhecimento rdf:type owl:Class ;
+                    rdfs:subClassOf :ConhecimentoUniversal .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+:aprendeuCom rdf:type owl:ObjectProperty ;
+             rdfs:domain :Aprendiz ;
+             rdfs:range :Mestre .
+
+:aprende rdf:type owl:ObjectProperty ;
+         rdfs:domain :Aprendiz ;
+         rdfs:range :Disciplina .
+
+:contem rdf:type owl:ObjectProperty ;
+        rdfs:domain :TipoDeConhecimento ;
+        rdfs:range :Disciplina ;
+        owl:inverseOf :pertenceA .
+
+:dependeDe rdf:type owl:ObjectProperty ;
+           rdfs:domain :Conceito ;
+           rdfs:range :Conceito .
+
+:eEstudadoEm rdf:type owl:ObjectProperty ;
+             rdfs:domain :Conceito ;
+             rdfs:range :Disciplina .
+
+:eFundamentoPara rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Conceito ;
+                 rdfs:range :Conceito ;
+                 owl:inverseOf :dependeDe .
+
+:ensina rdf:type owl:ObjectProperty ;
+        rdfs:domain :Mestre ;
+        rdfs:range :Disciplina .
+
+:escreveu rdf:type owl:ObjectProperty ;
+          rdfs:domain :Mestre ;
+          rdfs:range :Obra ;
+          owl:inverseOf :foiEscritoPor .
+
+:estaRelacionadoCom rdf:type owl:ObjectProperty ,
+                             owl:SymmetricProperty ;
+                    rdfs:domain :Conceito ;
+                    rdfs:range :Conceito .
+
+:estuda rdf:type owl:ObjectProperty ;
+        rdfs:domain :Disciplina ;
+        rdfs:range :Conceito ;
+        owl:inverseOf :eEstudadoEm .
+
+:explica rdf:type owl:ObjectProperty ;
+         rdfs:domain :Obra ;
+         rdfs:range :Conceito .
+
+:foiEscritoPor rdf:type owl:ObjectProperty ;
+              rdfs:domain :Obra ;
+              rdfs:range :Mestre .
+
+:mesteDe rdf:type owl:ObjectProperty ;
+         rdfs:domain :Mestre ;
+         rdfs:range :Aprendiz ;
+         owl:inverseOf :aprendeuCom .
+
+:pertenceA rdf:type owl:ObjectProperty ;
+           rdfs:domain :Disciplina ;
+           rdfs:range :TipoDeConhecimento .
+
+:surgeEm rdf:type owl:ObjectProperty ;
+         rdfs:domain :Conceito ;
+         rdfs:range :PeriodoHistorico .
+
+:temAplicacaoEm rdf:type owl:ObjectProperty ;
+                rdfs:domain :Conceito ;
+                rdfs:range :Aplicacao .
+
+:utiliza rdf:type owl:ObjectProperty ;
+         rdfs:domain :Aplicacao ;
+         rdfs:range :Conceito ;
+         owl:inverseOf :temAplicacaoEm .
+
+:viveuEm rdf:type owl:ObjectProperty ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :PeriodoHistorico .
+
+#################################################################
+#    Data properties
+#################################################################
+
+:anoMorte rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Pessoa ;
+          rdfs:range xsd:gYear .
+
+:anoNascimento rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Pessoa ;
+               rdfs:range xsd:gYear .
+
+:anoPublicacao rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Obra ;
+               rdfs:range xsd:gYear .
+
+:descricao rdf:type owl:DatatypeProperty ;
+           rdfs:domain owl:Thing ;
+           rdfs:range xsd:string .
+
+:fimSeculo rdf:type owl:DatatypeProperty ;
+           rdfs:domain :PeriodoHistorico ;
+           rdfs:range xsd:int .
+
+:inicioSeculo rdf:type owl:DatatypeProperty ;
+              rdfs:domain :PeriodoHistorico ;
+              rdfs:range xsd:int .
+
+:lingua rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Obra ;
+        rdfs:range xsd:string .
+
+:nivel rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Disciplina ;
+       rdfs:range xsd:string .
+
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain owl:Thing ;
+      rdfs:range xsd:string .
+
+:idade rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Pessoa ;
+       rdfs:range xsd:int .
+       
+#################################################################
+#    Classes
+#################################################################
+
+:Conceito rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :eEstudadoEm ;
+                            owl:minCardinality "1"^^xsd:nonNegativeInteger
+                          ] .
+
+:Disciplina rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :pertenceA ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] .
+
+:Mestre rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :ensina ;
+                          owl:minCardinality "1"^^xsd:nonNegativeInteger
+                        ] .
+
+:Obra rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :foiEscritoPor ;
+                        owl:minCardinality "1"^^xsd:nonNegativeInteger
+                      ] .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
